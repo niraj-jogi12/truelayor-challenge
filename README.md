@@ -22,7 +22,7 @@ Tools used in the projects are Shell Script , Java , Maven.
 
 Shell Script :  It can works like a scheduler and we can make this process automated by scheduling it in the cron tab. Also for any changes needed like database connection or queries we can simply change shell script and config file.
 
-Java : I am very much confirmtable to code in Java as I am being working in Java from last 10+ years . Also I have used CopyManager API to copy data from csv into Postgres which is highy efficient.
+Java : I am very much confirmtable to code in Java as I am being working in Java from last 10+ years . Also I have used CopyManager API to copy data from csv into Postgres which is highy efficient. ( We can code this with Python language also)
 
 Maven : This tool provides allows developers to build and document the lifecycle framework. Maven focuses on the simplification and standardization of the building process, taking care of the Builds,Documentation,Dependencies,Reports,Distribution,Releases etc.
 
