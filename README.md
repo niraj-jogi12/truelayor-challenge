@@ -11,9 +11,9 @@ Without installing/developing any scheduler , we can scheduled this shell script
 
 This shell script invokes Java code which loads data into Postgres Database in table moviesdetails and connection.cfg is configuration to connect to postgres database.
 
-a) moviesmetadata table which has movie metadata and their budget to revenue ratio.
-b) moviesratings table which has movie id and their ratings.
-c) movieslist table which has movie name and wikipage url.
+a) moviesmetadata table holds movie metadata and their budget to revenue ratio.
+b) moviesratings table holds has movie id and their ratings.
+c) movieslist table holds movie name and wikipage url.
 
 We can query the data externally also with the help of postgres sql added in run.sh.
 
@@ -32,7 +32,7 @@ Maven : This tool provides allows developers to build and document the lifecycle
 a) Once the data grows in future , we can do complete processing of this project in Google Cloud . 
 As a first step we can do lift and shift migration of this project in to Google Cloud . 
 Once we are sucessfully done with cloud migration then we can design this solution completly in Google Cloud. 
-We can use Compute instances along with dataflow/dataproc pipelines to run the data processing and Bigquery to store the data which can be used for analysis purpose later . 
+We can use Compute instances along with dataflow/dataproc/ETL pipelines to run the data processing and Bigquery to store the data which can be used for analysis purpose later . 
 
 b) We can also use Bigdata Mapreduce framework to process huge data and then finally we can load into hive as well if we need to get rid of Postgres.
 
