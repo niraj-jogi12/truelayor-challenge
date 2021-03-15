@@ -1,7 +1,7 @@
 # truelayor-challenge
 Repository for TrueFilm which is film investment company. This project enables them to understand which films have performed well in the past so that they can make better decisions.
 
-Please not the files enwiki-latest-abstract.xml.gz , movies_metadata.csv and ratings.csv has not been kept in the source folder as they are of huge sizes.
+Please note the files enwiki-latest-abstract.xml.gz , movies_metadata.csv and ratings.csv has not been kept in the source folder as they are of huge sizes.
 
 **1. How to run it and how to query the data.**
 I have made this project reproducible and automated with the help of shell script run.sh and config file . 
