@@ -7,7 +7,7 @@ Please note the files enwiki-latest-abstract.xml.gz , movies_metadata.csv and ra
 I have made this project reproducible and automated with the help of shell script run.sh and config file . 
 Without installing/developing any scheduler , we can scheduled this shell script and config to run in crob tab with the command shown below. 
 
-nohup sh run.sh connection.cfg &
+**nohup sh run.sh connection.cfg &**
 
 This shell script invokes Java code which loads data into Postgres Database in table moviesdetails and connection.cfg is configuration to connect to postgres database.
 
